@@ -1,0 +1,11 @@
+.env
+.env.local
+.streamlit/secrets.toml
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+embeddings_cache.pkl
+Full_PSI_Data_Merged.xlsx
+raw_data/

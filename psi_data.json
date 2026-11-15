@@ -1,0 +1,398 @@
+{
+  "investigations": [
+    {
+      "id": "PSI-10",
+      "psi_id": "PSI-10 (Flame Design)",
+      "project_type": "ISS Microgravity Spherical Diffusion Flame Dynamics",
+      "title": "Flame Design: Soot Inception, Radiative Extinction, and Structure of Inverse & Normal Spherical Diffusion Flames in Microgravity",
+      "principal_investigator": "Richard L. Axelbaum / Peter B. Sunderland / David L. Urban (Washington University in St. Louis, University of Maryland, NASA Glenn Research Center)",
+      "mission": "ISS / Combustion Integrated Rack (CIR)",
+      "objectives": "Investigate the structure, soot inception limits, radiative heat loss, stability, and extinction behavior of both inverse and normal gaseous spherical diffusion flames in microgravity. Characterize how oxygen mole fraction (XO2), ethylene/propane fuel fraction (XC2H4 / Xfuel), chamber pressure, stoichiometric mixture fraction (Zst), and adiabatic flame temperature (Tad) govern soot-free flame design and spacecraft fire safety.",
+      "approach": "Analyzed 327 experimental test runs across two primary configurations in Sheet 1 (out of 4,480 total Sheet 1 rows): (1) PSI-10_Experimental table_Flame Design_Inverse Flame.csv (120 rows, Test IDs 21328A1 to 21340C2 across Days 1–8): Ethylene (C2H4) inverse diffusion flames (oxidizer flowing from porous spherical burner into fuel ambiance) tested at XO2 = 0.2120–0.8500 (mean 0.6091, n=109 numeric; 11 ramped), pinit = 0.4246–3.0076 atm (mean 1.2188 atm), pfinal = 0.4273–3.0287 atm (mean 1.2310 atm), pmean = 0.4260–3.0182 atm (mean 1.2249 atm), XC2H4 initial = 0.0803–0.6581 (mean 0.1775), XC2H4 final = 0.0801–0.6571 (mean 0.1762), and mean Zst = 0.0953–0.7585 (mean 0.5201). (2) PSI-10_Experimental table_Flame Design_Normal Flame.csv (207 rows, Test IDs 19115A1 to 19123A4 across Days 0–13): Normal spherical diffusion flames with ethylene (C2H4) and propane (C3H8) tested at XO2 (init) = 0.1980–0.4000 (mean 0.3207), XO2 (final) = 0.1975–0.3972 (mean 0.3102), Xfuel = 0.0498–1.0000 (mean 0.5014, n=147 steady runs; 60 RAMPED/RAMP runs), pinit = 0.9320–1.2970 atm (mean 1.0755 atm), pfinal = 0.9928–1.3242 atm (mean 1.1009 atm), pmean = 0.9921–1.3106 atm (mean 1.0959 atm), and mean Zst = 0.0609–0.7154 (mean 0.2524).",
+      "hypothesis": "In microgravity, shifting oxygen and nitrogen diluent between the fuel and oxidizer streams precisely controls the stoichiometric mixture fraction (Zst) and adiabatic flame temperature (Tad), relocating the flame sheet relative to the soot inception zone to achieve soot-free blue flames and systematic mapping of radiative vs. diffusive extinction limits.",
+      "findings": "1) Inverse Spherical Flames (120 tests, C2H4): Adiabatic flame temperature Tad ranged from 2074.4122 to 2974.4561 K (mean 2512.4461 K, n=109). XO2 ranged from 0.2120 to 0.8500 (mean 0.6091). Burner mass flow rates spanned mO2 = 1.5236–9.7993 mg/s (mean 4.3495 mg/s, n=112), mN2 = 0.2354–9.6110 mg/s (mean 3.3456 mg/s, n=109), and mtot = 1.7591–13.7597 mg/s (mean 7.6797 mg/s, n=109). Ambient ethylene mole fraction XC2H4 initial spanned 0.0803–0.6581 (mean 0.1775) and XC2H4 final spanned 0.0801–0.6571 (mean 0.1762). Chamber pressures spanned pinit = 0.4246–3.0076 atm (mean 1.2188 atm), pfinal = 0.4273–3.0287 atm (mean 1.2310 atm), and pmean = 0.4260–3.0182 atm (mean 1.2249 atm). Stoichiometric mixture fraction (mean Zst) ranged from 0.0953 to 0.7585 (mean 0.5201). 2) Normal Spherical Flames (207 tests, 147 steady numeric + 60 ramped, fuels C2H4 and C3H8): Tad ranged from 1682.7205 to 2830.6634 K (mean 2453.4756 K). Flow rates spanned mfuel = 0.3127–2.5213 mg/s (mean 1.4101 mg/s), mN2 = 0.0000–20.2402 mg/s (mean 3.3331 mg/s), and mtot = 0.3127–21.5407 mg/s (mean 4.7431 mg/s). Pressures spanned pinit = 0.9320–1.2970 atm (mean 1.0755 atm) and pmean = 0.9921–1.3106 atm (mean 1.0959 atm). Mean Zst ranged from 0.0609 to 0.7154 (mean 0.2524), confirming that high Zst (>0.30) suppresses soot inception and radiative heat loss.",
+      "earth_benefits": "Fundamental flame structure and Zst design criteria directly inform low-emission oxy-fuel industrial burners (glass/steel furnaces), clean gas turbine combustors, and HVAC fire suppression engineering, while improving radiative extinction and fire detection models for spacecraft cabins, submarines, mines, and aircraft cargo bays.",
+      "materials": "Ethylene (C2H4), Propane (C3H8), Oxygen (O2), Nitrogen (N2), Porous Spherical Burner"
+    },
+    {
+      "id": "PSI-39",
+      "psi_id": "PSI-39 (CFI)",
+      "project_type": "ISS Microgravity Droplet Cool Flame Investigation",
+      "title": "Cool Flame Investigation (CFI): Pure & Blended Dodecane/Iso-Dodecane Droplet Combustion in Microgravity",
+      "principal_investigator": "Vedha Nayagam / Forman A. Williams / Michael C. Hicks (NASA Glenn Research Center & UC San Diego)",
+      "mission": "ISS / Combustion Integrated Rack (CIR) / FLEX Platform",
+      "objectives": "Investigate cool flame phenomena in isolated droplet combustion of pure n-Dodecane (C12H26) and branched iso-dodecane blends in microgravity. Map the ambient pressure, oxygen concentration, and helium/nitrogen diluent conditions under which cool flames stabilize following radiative hot-flame extinction, comparing fiber-supported vs. free-floating droplet behavior.",
+      "approach": "Analyzed 87 FLEX flight experiments from PSI-39_Experimental table_CFI.csv in Sheet 1 (conducted March 9, 2017 to July 29, 2017, CIR run IDs f068a03 to f090a07+) alongside detailed Dodecane flight summary sheets in Sheet 6 (FLEX-1238_Summary.pdf and FLEX-1239_Summary.pdf). FLEX test numbers ranged from 1206 to 1387 (mean 1299.29). Pressures spanned 0.5, 0.75, 1.0, 1.25, 2.0, 3.0, and 5.0 atm. Oxygen mole fraction: 0.1700–0.2100 (mean 0.1990). Nitrogen: 0.2000–0.8300 (mean 0.7323). Helium diluent: 0.0000–0.5900 (mean 0.0674). Fuels tested: pure C12H26, [.75]/[.25] C12H26/iso-dodecane, and [.60]/[.40] C12H26/iso-dodecane. Fiber support: No (free-floating) and Yes (fiber-supported).",
+      "hypothesis": "Following radiative extinction of hot diffusion flames in microgravity, low-temperature oxidation chemistry governed by negative temperature coefficient (NTC) alkylperoxy (RO2) isomerization and degenerate chain-branching reactions can sustain self-stabilized cool flames; adding branched iso-dodecane or high-thermal-diffusivity helium diluent shifts the hot-flame extinction diameter (Dext) and modulates cool-flame burning rate (kavg,cool).",
+      "findings": "Across 87 FLEX/CFI flight experiments (Flex Numbers 1206.0–1387.0, mean 1299.29): 1) Documented cool flame behavior for pure n-Dodecane (C12H26) and n-Dodecane/iso-dodecane blends ([0.75]/[0.25] and [0.60]/[0.40] ratios) across pressures from 0.5 atm to 5.0 atm. 2) O2 mole fraction varied from 0.17 to 0.21 (mean 0.1990), N2 from 0.20 to 0.83 (mean 0.7323), and He diluent from 0.00 to 0.59 (mean 0.0674) for thermal diffusivity modulation. 3) Both fiber-supported (Yes) and free-floating (No) droplets were tested, enabling direct quantification of support-fiber conductive/catalytic perturbation on cool flame inception and stability. 4) Cross-referenced Sheet 6 flight summaries for pure Dodecane at ~0.51 atm (YO2 = 0.210, YN2 = 0.790): FLEX-1238 (Run F121A05, May 1, 2017, P = 387.279 mmHg) recorded initial diameter D0 = 4.463 mm, hot-flame extinction Dext = 4.015 mm, hot-flame burning rate kavg = 0.369 mm²/s, cool-flame burning rate kavg,cool = 0.328 mm²/s, and final cool-flame extinction Dext,cool ≈ 1.780 mm (peak cool flame diameter up to 16 mm, peak grayscale ~400); FLEX-1239 (Run F121A06, May 1, 2017, P = 387.398 mmHg) recorded D0 = 4.393 mm, Dext = 3.923 mm, kavg = 0.318 mm²/s, kavg,cool = 0.310 mm²/s, and Dext,cool = 1.915 mm.",
+      "earth_benefits": "Cool flame kinetic data for linear vs. branched alkane blends directly informs Homogeneous Charge Compression Ignition (HCCI) engine pre-ignition timing, Cetane rating prediction for diesel and sustainable aviation fuel (SAF / Jet-A / JP-8) surrogates, and fire forensics/suppression system design for fuel storage facilities.",
+      "materials": "n-Dodecane (C12H26), n-Dodecane/iso-Dodecane blends ([0.75]/[0.25], [0.60]/[0.40]), Helium/Nitrogen Diluents, Silicon Carbide Support Fiber"
+    },
+    {
+      "id": "PSI-98",
+      "psi_id": "PSI-98 (SAFFIRE-1)",
+      "project_type": "ISS / Spacecraft Full-Scale Fire Growth & Safety Experiment",
+      "title": "Spacecraft Fire Experiment-1 (SAFFIRE-1): Large-Scale Concurrent & Opposed-Flow Flame Spread in Microgravity",
+      "principal_investigator": "Gary A. Ruff / David L. Urban / Carlos Fernandez-Pello (NASA Glenn Research Center & UC Berkeley)",
+      "mission": "ISS Cygnus OA-6 Resupply Vehicle (Post-Undocking Free-Flyer)",
+      "objectives": "Conduct the first large-scale microgravity fire growth experiment aboard an uncrewed ISS resupply vehicle to characterize realistic module-scale flame spread behavior, oxygen consumption, and flow direction effects (concurrent vs. opposed flow) over spacecraft-relevant SIBAL fabric panels.",
+      "approach": "Analyzed all 4 sample/configuration entries from PSI-98_Experimental table_SAFFIRE-1.csv in Sheet 1: two large-scale SIBAL Fabric (75% cotton / 25% fiberglass composite cloth, also referenced as Silicon-Blended Aramid Laminate) burn samples (S1 and S2) with dimensions 0.37 cm thickness × 40.6 cm width × 94.0 cm length, plus two pre-test flow visualization runs (F1C1/F1C2 for Sample 1 and F2C1/F2C2 for Sample 2). Air flow velocity: 20.0 cm/s. Oxygen concentration: 21.5–21.7% O2 (Sample S1) and ~21.5% O2 (Sample S2). Ignition power: 182.0 W applied for an Ignition Time of 8.0 s. Dual-camera imaging (S1C1/S1C2 and S2C1/S2C2) recorded each burn.",
+      "hypothesis": "In spacecraft-scale geometries under microgravity, flame spread rates and burn durations over fabrics differ substantially from small-scale 1-g tests due to reduced buoyant convection, finite-tunnel oxygen depletion, and radiation-dominated heat transfer, with concurrent (downwind) flow sustaining much longer burning than opposed (upwind) flow.",
+      "findings": "Across the 4 entries in PSI-98_Experimental table_SAFFIRE-1.csv: 1) Sample S1 (SIBAL Fabric, 40.6 × 94.0 × 0.37 cm) tested in Concurrent flow at 20.0 cm/s airflow and 21.5–21.7% O2 with 182.0 W ignition power for 8.0 s sustained active flame spread for a Burn Time of 420.0 s (7.0 minutes, mean spread velocity ~2.24 mm/s over 940 mm, recorded by cameras S1C1/S1C2). 2) Sample S2 (SIBAL Fabric, 40.6 × 94.0 × 0.37 cm) tested in Opposed flow at 20.0 cm/s airflow and ~21.5% O2 with 182.0 W ignition power for 8.0 s sustained a Burn Time of 70.0 s before self-extinguishing (recorded by cameras S2C1/S2C2). Mean burn time across both configurations was 245.0 s (range 70.0–420.0 s), demonstrating a 6:1 (6.0x) ratio of concurrent-to-opposed burn duration on the largest fabric panels (40.6 × 94.0 cm) burned in a controlled microgravity experiment.",
+      "earth_benefits": "Directly validates NASA's Fire Dynamics Simulator (FDS) for full-scale spacecraft cabin fire scenarios, transforms NASA-STD-6001B small-scale upward flammability screening into realistic risk models for Orion, Lunar Gateway, and commercial space stations, and improves flame spread prediction for aircraft cabins, submarine compartments, and mine ventilation systems.",
+      "materials": "SIBAL Fabric (75% Cotton / 25% Fiberglass Composite Cloth / Silicon-Blended Aramid Laminate)"
+    },
+    {
+      "id": "PSI-102",
+      "psi_id": "PSI-102 (SAME / SAME-R)",
+      "project_type": "ISS Microgravity Spacecraft Smoke Aerosol & Detector Characterization",
+      "title": "Smoke Aerosol Measurement Experiment (SAME & SAME-R): Pyrolysis Smoke Aging Properties and Multi-Detector Telemetry",
+      "principal_investigator": "David L. Urban / Gary A. Ruff / Paul S. Greenberg / Marit E. Meyer (NASA Glenn Research Center)",
+      "mission": "ISS Microgravity Science Glovebox (MSG) — Expedition 15 / 16 (GMT 252–272, 2007) & SAME-R Reflight",
+      "objectives": "Characterize the smoke particle size distribution, mass/number concentration, aging dynamics, and optical properties produced by pyrolysis and overheating of spacecraft-relevant materials in microgravity, comparing the Space Shuttle ionization detector (STS) against the ISS photoelectric laser-scattering/obscuration detector (ISS) and reference P-Trak (ultrafine condensation particle counter) and DustTrak (nephelometer) instruments.",
+      "approach": "Synthesized 8 experimental test matrix rows from Sheet 1 (PSI-102_Experimental table_SAME.csv, Samples #1–#8 across 5 materials: Teflon, Kapton, Silicone Rubber, Lampwick, and Dibutyl Phthalate) and 30,238 high-frequency (1 Hz) telemetry rows across 126 columns (~117 active sensor/housekeeping channels) in Sheet 2 (2_SAMER_Smoke_Sensors) spanning 5 flight files: GMT254HKPandLOGmultiple runs.xls (11,111 rows), GMT264 Run 21 DBP.xls (6,584 rows), GMT252run1testhkp with plotszgy average.xls (5,520 rows), TeflonGMT257hkp.xls (4,304 rows), and GMT272kapton30.xls (2,719 rows). Purged all-NaN spacer columns and analyzed both raw telemetry and sentinel-filtered active sensor ranges (excluding power-off sentinels of -10.0 V, -999 Pt/cc, and -50 PSIA).",
+      "hypothesis": "Lack of buoyant plume entrainment in microgravity increases smoke residence time in the pyrolysis heating zone and aging chamber, producing larger, more agglomerated aerosol particles that shift the relative sensitivity between ionization (STS) and photoelectric scattering/obscuration (ISS) spacecraft smoke detectors compared to 1-g calibrations.",
+      "findings": "1) Sheet 1 SAME Experimental Table (8 rows, Samples #1–#8): Tested 5 spacecraft materials—Teflon (PTFE, Samples #1–#4), Kapton (Sample #5: 'same conditions as 1-4'), Silicone Rubber (Sample #6: 'same conditions as 1-4'), Lampwick cellulose/cotton (Sample #7: 'same conditions as 1-4'), and Dibutyl Phthalate / DBP liquid (Sample #8: 'same conditions as 1-4')—at Air Flow = 5.0–10.0 cm/s (mean 6.25 cm/s), Weight loss rate = 1.0–2.0 mg/min (mean 1.75 mg/min), and Aging Duration = 1.0–20.0 minutes (mean 5.75 min). 2) Sheet 2 Overall SAME-R Telemetry (30,238 rows total; 28,467–29,644 valid active rows): Valid ISS Detector Obscuration spanned 3.1146–3.4433 V (clean mean 3.4309 V; raw -10.0000 to 3.4433 V, raw mean 3.0096 V); ISS Detector Scatter spanned -6.3055 to +10.0000 V (clean mean -0.1948 V); STS Ionization Detector spanned -0.0024 to 5.3073 V (clean mean 1.0451 V); Ion Detector A spanned 4.6332–6.8497 V (clean mean 4.9514 V) and Ion Detector B spanned 4.4931–6.8713 V (clean mean 4.7011 V). DustTrak A mass concentration spanned 0.0000–153.9750 mg/m³ (mean 0.7314 mg/m³) and DustTrak B spanned 0.0000–134.9220 mg/m³ (mean 1.6301 mg/m³). P-Trak ultrafine particle count spanned 0.0 to 500,000.0 Pt/cc (clean mean 955.78 Pt/cc; raw min -999.0 Pt/cc). Gas Plume Temperature (n=15,011) spanned 24.3070–91.9589 °C (mean 28.7425 °C), Elapsed Test Time spanned 0–905.0 s (mean 546.44 s), MFC Mass Flow Rate spanned 0.00–7.5100 LPM (mean 0.3380 LPM), and Sample Side Pressure [AT20] averaged 14.7843 PSIA (clean range 14.5737–14.8773 PSIA). 3) Per-File Telemetry Breakdown: (a) GMT252 (Run 1, 5,520 rows): ISS Obscuration 3.1146–3.4427 V (mean 3.4234 V), ISS Scatter -6.2628 to +6.2628 V, STS peak 5.3073 V, Ion A/B peaks 6.8497 V / 6.8713 V, P-Trak peak 500,000.0 Pt/cc (clean mean 3,482.40 Pt/cc), DustTrak A peak 153.975 mg/m³, DustTrak B peak 134.922 mg/m³, Gas Plume Temp peak 91.9589 °C. (b) GMT254 (Multiple runs, 11,111 rows, Samples #0–#5): ISS Obscuration clean 3.2474–3.4409 V, STS peak 5.3052 V, DustTrak A peak 6.280 mg/m³, DustTrak B peak 43.698 mg/m³, P-Trak peak 2,850.0 Pt/cc, Gas Plume Temp peak 71.6849 °C, MFC flow peak 7.510 LPM. (c) GMT264 (DBP Run 21 & 22, 6,584 rows): ISS Obscuration clean 3.2269–3.4405 V (raw min -10.0 V), ISS Scatter -6.2714 to -0.1843 V (+10.0 V on inverted channel), STS ionization near-zero (-0.0021 to 0.0009 V), Ion A/B peaks 5.1361 V / 4.9716 V, DustTrak B peak 30.323 mg/m³ (DustTrak A peak 0.155 mg/m³), P-Trak peak 1,190.0 Pt/cc (clean mean 68.43 Pt/cc), Gas Plume Temp peak 65.9333 °C. (d) GMT272kapton30 (Kapton 30-min Run 30, 2,719 rows): ISS Obscuration clean 3.3804–3.4433 V (raw min -10.0 V), STS peak 5.3040 V, Ion A/B peaks 5.7516 V / 5.9384 V, P-Trak peak 55,000.0 Pt/cc (clean mean 905.95 Pt/cc), DustTrak A peak 29.318 mg/m³, DustTrak B peak 33.744 mg/m³. (e) TeflonGMT257 (Teflon, 4,304 rows): ISS Obscuration clean 3.3029–3.4421 V, ISS Scatter 0.1797–10.0000 V, STS peak 5.3064 V, Ion A/B peaks 5.8035 V / 5.8362 V, P-Trak peak 366,000.0 Pt/cc (clean mean 1,262.75 Pt/cc), DustTrak A peak 9.124 mg/m³, DustTrak B peak 29.999 mg/m³.",
+      "earth_benefits": "Directly informed next-generation multi-criteria, dual-wavelength spacecraft smoke detector designs for ISS, Orion MPCV, Lunar Gateway, and commercial space stations, and spun off into ultra-low-false-alarm early fire detection algorithms for semiconductor clean rooms, hyperscale data centers, and aircraft cargo holds.",
+      "materials": "Teflon (Polytetrafluoroethylene / PTFE), Kapton (Polyimide Film), Silicone Rubber, Lampwick (Cellulose / Cotton), Dibutyl Phthalate (DBP)"
+    },
+    {
+      "id": "PSI-117",
+      "psi_id": "PSI-117 (FLEX)",
+      "project_type": "ISS Microgravity Droplet Combustion & Cool Flame Investigation",
+      "title": "Flame Extinguishment Experiment (FLEX) & Multi-Stage Cool Flame Dynamics",
+      "principal_investigator": "Forman A. Williams / Vedha Nayagam / Farouk F.isto (NASA Glenn Research Center & UC San Diego)",
+      "mission": "ISS / Combustion Integrated Rack (CIR) — MDCA (Multi-user Droplet Combustion Apparatus)",
+      "objectives": "Characterize the complete lifecycle of isolated spherical droplet combustion in microgravity including hot-flame d²-law burning, soot-shell radiative extinction (Dext_HF), and post-extinction negative-temperature-coefficient (NTC) cool flame phenomena (oscillatory, stable, and three-stage burning) for normal alkane fuels (C7 n-Heptane, C10 n-Decane, C12 n-Dodecane) across 0.5–5.0 atm. Quantify extinction diameters (Dext_hot, Dext_cool), burning rate constants (kb, Kavg_CF), and flame radiance.",
+      "approach": "Analyzed 2,860 data rows across 9 source files from Sheet 1 (PSI-117_Analyzed Data_*): MST 2024 Burning History & Flame Diameter (683 rows), MST 2024 Radiance & Flame Diameter (683 rows), PROCI 2019 Oscillatory Cool Flame (640 rows), PROCI 2019 C12 Three-Stage Burning (571 rows), PROCI 2019 Stable Cool Flame (243 rows), MST 2024 Kavg (19 rows), MST 2024 Dext (9 rows at pressures [0.5, 0.75, 1.0, 1.25, 3.0] atm), PROCI 2023 Alkane Extinction Diameter at 1 atm (6 rows, 3 fuels: C7, C10, C12), and PROCI 2023 C12 Extinction Diameter vs Pressure (6 rows), plus 2 flight summary pages in Sheet 6 (FLEX-1238_Summary.pdf and FLEX-1239_Summary.pdf). Pressures spanned 0.5 atm (387.279–387.398 mmHg) to 5.0 atm, initial droplet diameters D0 spanned 0.5–7.0 mm (experimental D0 = 3.342–4.480 mm), and oxygen mole fraction YO2 = 0.210 (YN2 = 0.790).",
+      "hypothesis": "In microgravity, isolated n-alkane droplets exhibit three-stage burning: (1) conventional hot-flame d²-law evaporation, (2) premature radiative extinction (Dext_HF) when soot-shell and gas-band radiation losses exceed chemical heat release, and (3) a secondary low-temperature (~600–1150 K) cool flame governed by alkylperoxy (RO2) isomerization / NTC degenerate branching chemistry that continues vaporizing the droplet until final cool-flame extinction (Dext_CF), which decreases with increasing pressure and carbon chain length.",
+      "findings": "1) MST 2024 Extinction Diameters & Burning Rates vs. Pressure ([0.5, 0.75, 1.0, 1.25, 3.0, 5.0] atm): Modeled Dext_hot = [3.4422, 3.6871, 3.7214, 3.7483, 3.9456] mm (mean 3.7089 mm, increasing with pressure), while modeled Dext_cool = [1.1973, 0.4150, 0.2700, 0.2201, 0.0000] mm (mean 0.4205 mm, shrinking with pressure). Experimental Dext_cool_Expt (n=9, 0.5–1.25 atm) decreased from [1.9471, 1.8155, 1.7531] mm at 0.5 atm to [0.9064, 0.8161] mm at 0.75 atm, [0.5138, 0.4147, 0.3232] mm at 1.0 atm, and 0.4060 mm at 1.25 atm (range 0.3232–1.9471 mm, mean 0.9884 mm). Cool-flame burning rate constant Kavg_CF (n=19, 0.5–5.0 atm) ranged from 0.3152 to 0.5273 mm²/s (mean 0.4058 mm²/s); hot-flame burning rate constant kb (n=6, 0.5–5.0 atm) ranged from 0.3740 to 0.5012 mm²/s (mean 0.4482 mm²/s). 2) PROCI 2023 Alkane Extinction at 1 atm (C7, C10, C12): C7 (n-Heptane) Expt (n=5) D0 = [3.91, 3.557, 3.61, 3.342, 3.891] mm (mean 3.662 mm), Dext_HF = [3.28, 2.794, 2.838, 2.326, 3.412] mm (mean 2.930 mm), Dext_CF = [1.3, 1.214, 1.146, 1.101, 1.199] mm (mean 1.192 mm; Sim D0 = 2.0–7.0 mm: Dext_HF = 0.000–6.8908 mm, Dext_CF = 0.000–1.400 mm); C10 (n-Decane) Expt (n=6) D0 = [4.381, 3.925, 3.763, 4.395, 3.947, 3.948] mm (mean 4.060 mm), Dext_HF = [3.963, 3.37, 3.031, 3.935, 3.409, 3.327] mm (mean 3.506 mm), Dext_CF = [1.317, 1.042, 1.11, 1.052, 1.088, 0.661] mm (mean 1.045 mm; Sim D0 = 2.0–7.0 mm: Dext_HF = 0.000–6.980 mm, Dext_CF = 0.000–0.940 mm); C12 (n-Dodecane) Expt (n=4) D0 = [4.408, 4.042, 4.137, 4.039] mm (mean 4.1565 mm), Dext_HF = [4.059, 3.554, 3.571, 3.577] mm (mean 3.6903 mm), Dext_CF = [0.0, 0.4, 0.0, 0.497] mm (mean 0.2243 mm; Sim D0 = 4.039–6.000 mm: Dext_HF = 3.6919–5.9700 mm [mean 4.3775 mm], Dext_CF = 0.2186–0.4500 mm [mean 0.2879 mm]). 3) PROCI 2023 C12 Extinction vs. Pressure (P = [0.5, 0.75, 1.0, 1.25, 3.0] atm): Dext_HF_EXPT = [3.48, 3.57, 3.56, 3.62, 3.56] mm (mean 3.558 mm), Dext_HF_model = [3.43, 3.69, 3.68, 3.74, 3.94] mm, Dext_CF_EXPT = [1.89, 0.49, 0.39, 0.48, 0.38, 0.0] mm, Dext_CF_Model = [1.19, 0.41, 0.25, 0.33, 0.03] mm. 4) Flame Radiance & Burning History (MST 2024, 683 rows each): Primary Radiance (W) column across PSI-117 spanned 0.1280–31.6059 W (mean 11.4787 W, n=111), with secondary Radiance (W).1 up to 33.0095 W and Q (W) up to 38.1111 W. At 1 atm (D0 = 4.0 mm), d² spanned 0.6468–16.2372 mm² (mean 7.2773 mm²) over t = 0.0432–49.1537 s and dflame = 0.3538–25.3286 mm (mean 10.0418 mm). Simulated T_max spanned 425.97–2583.97 K at 0.5 atm (mean 1624.20 K) and 958.03–2774.94 K at 5.0 atm (mean 1681.20 K). 5) PROCI 2019 Cool Flame & Three-Stage Regimes: Oscillatory Cool Flame (640 rows, D0 = 0.5 mm, t = 0–1.0275 s) showed T_max = 599.61–1150.00 K (mean 718.12 K) and K = -0.2440 to 0.2927 mm²/s (mean 0.2171 mm²/s). Stable Cool Flame (243 rows, D0 = 0.5 mm, t = 0–0.8091 s) showed T_max = 599.68–1152.73 K (mean 790.64 K) and K = -0.2761 to 0.3581 mm²/s (mean 0.1563 mm²/s). Three-Stage C12 Burning (571 rows, D0 = 4.5 mm, t = 0–37.6733 s) showed K(mm²/s) = -4.0812 to 0.6694 (negative values during cool-flame transition indicating thermal expansion/diameter regrowth), D_Tmax/D_drop = 1.1389–18.0038 (mean 6.8725), T_max = 734.26–2661.40 K (mean 1554.42 K), Flame Radiance = 0.9878–62.8182 W, Cool Flame Dia (FWHM) = 0.0000–33.4256 mm (mean 19.9006 mm), and Cool Flame Dia (peak-peak) = -0.1211 to 19.8616 mm (mean 12.0065 mm). 6) Sheet 6 PDF Summaries: FLEX-1238 (F121A05, May 1, 2017, Dodecane, P = 387.279 mmHg, YO2 = 0.210, YN2 = 0.790) recorded D0 = 4.463 mm, Dext = 4.015 mm, kavg = 0.369 mm²/s, kavg,cool = 0.328 mm²/s, Dext,cool ≈ 1.780 mm; FLEX-1239 (F121A06, P = 387.398 mmHg, YO2 = 0.210) recorded D0 = 4.393 mm, Dext = 3.923 mm, kavg = 0.318 mm²/s, kavg,cool = 0.310 mm²/s, Dext,cool = 1.915 mm.",
+      "earth_benefits": "Validates reduced NTC chemical kinetic mechanisms for Homogeneous Charge Compression Ignition (HCCI) and Reactivity Controlled Compression Ignition (RCCI) engines (enabling 20–30% fuel efficiency improvements and ultra-low NOx/soot emissions), while establishing droplet extinction criteria for fine water-mist and gaseous (N2/CO2) fire suppression in spacecraft, aircraft, and data centers.",
+      "materials": "n-Heptane (C7H16), n-Decane (C10H22), n-Dodecane (C12H26), Fiber-supported droplets"
+    },
+    {
+      "id": "PSI-159",
+      "psi_id": "PSI-159 (CFI-G)",
+      "project_type": "ISS Microgravity Gaseous Cool Flame Investigation",
+      "title": "Cool Flame Investigation – Gaseous (CFI-G): Premixed Cool Ignition (PCI) Modes and Hot Ignition Limits for Normal & Inverse Gaseous Alkane Flames",
+      "principal_investigator": "Peter B. Sunderland / Richard L. Axelbaum / Forman A. Williams (University of Maryland & NASA Glenn Research Center)",
+      "mission": "ISS / Combustion Integrated Rack (CIR)",
+      "objectives": "Map the complete hot-ignition, radiative extinction, and self-sustaining cool-flame boundaries of gaseous C2–C4 alkane fuels (ethane, propane, n-butane, and nitrogen-diluted blends) in microgravity across inverse and normal spherical diffusion configurations, identifying Premixed Cool Ignition (PCI) modes A–G as a function of fuel mole fraction (Xf), oxygen mole fraction (XO2), stoichiometric mixture fraction (Zst), and chamber pressure.",
+      "approach": "Analyzed 1,194 experimental rows from Sheet 1 across two source files: (1) PSI-159_Experimental table_CFI-G_Inverse Flames.csv (1,015 total rows containing 154 populated experimental test runs across Days 1–12, Test IDs 21196 A1 to 21196 M2+, fuels: ethane, propane, butane) and (2) PSI-159_Experimental table_CFI-G_Normal Flames.csv (179 experimental runs across Days 1–11, Test IDs 21088A1 to 21102A1+, fuels: ethane, propane, 50% butane, 30% butane, 30% propane, 30% ethane). Inverse pressures spanned 0.4954–3.3099 bar (mean 1.7315 bar); normal pressures spanned 0.5067–3.0399 bar (mean 1.2794 bar). Diagnostics included Thin-Filament Pyrometry (TFP: Yes/No), PMTs, and intensified multispectral cameras.",
+      "hypothesis": "Gaseous alkanes in microgravity exhibit low-temperature NTC cool-flame chemistry distinct from liquid droplet cool flames (decoupled from latent heat of vaporization), stabilizing into distinct Premixed Cool Ignition (PCI-A through PCI-G) propagation and standoff modes governed by carbon chain length, pressure (0.5–3.3 bar), and mixture stoichiometry (Zst).",
+      "findings": "1) CFI-G Inverse Flames (1,015 rows, 154 populated test runs; fuels: ethane, propane, butane): Oxidizer mole fraction XO2 spanned 0.1200–0.8500 (mean 0.5891); fuel mole fraction before test (Xf before test) = 0.0565–0.4287 (mean 0.1567) and after test (Xf after test) = 0.0556–0.4278 (mean 0.1557). Chamber pressure (approx p) ranged from 0.4954 to 3.3099 bar (mean 1.7315 bar). Hydrocarbon burn rate (HC burnrate) ranged from 0.2500 to 2.5000 mg/s (mean 1.3517 mg/s) and O2 flow rate from 0.9311 to 9.0841 mg/s (mean 4.9170 mg/s). Stoichiometric mixture fraction Zst spanned 0.1056–0.7839 (mean 0.4555) with adiabatic flame temperature Tad = 1567.0308–2978.3718 K (mean 2407.8969 K). Burn time ranged from 0.0 to 152.0 s (mean 28.9870 s), with Peak burner Temp (C) spanning 25.60–651.50 °C (mean 178.2079 °C) / Peak burner temp (K) = 273.15–924.65 K (mean 450.1855 K). Hot ignition states included Yes, No, and flash, with yellow, blue, yellow-blue, and limit flame colors terminated by Self-Extinction (SE) or Flow Termination (FT). 2) CFI-G Normal Flames (179 test runs; fuels: ethane, propane, 50% butane, 30% butane, 30% propane, 30% ethane): Ambient XO2 before test spanned 0.1797–0.3997 (mean 0.3218) and XO2 after test spanned 0.1794–0.3973 (mean 0.3194). Fuel mole fraction Xf ranged from 0.0000 to 1.0000 (mean 0.3712) with fuel mass flow mHC = 0.0000–3.2150 mg/s (mean 1.1355 mg/s) and chamber pressure approx p = 0.5067–3.0399 bar (mean 1.2794 bar). Zst spanned 0.0588–0.7621 (mean 0.2558) and Tad = 1397.0311–2729.9870 K (mean 2315.4893 K). Burn times reached 0.0–304.0 s (mean 44.0457 s, n=175) with Peak burner T (C) from 32.00 to 532.1627 °C (mean 246.9527 °C, n=133). Documented 8 distinct cool/hot flame phenotypes: 'no, PCI-hot', 'yes, PCI-A', 'yes, PCI-B', 'yes, PCI-C', 'yes, PCI-D', 'yes, PCI-E', 'yes, PCI-F', and 'yes, PCI-G' under staged igniter excitations (2.0–2.9 V for 10–20 s).",
+      "earth_benefits": "Provides fundamental gas-phase kinetic validation for natural gas, LPG, and light-alkane HCCI/RCCI engine models, and improves explosion prevention and process safety management in petrochemical storage, LNG terminals, and underground coal mine ventilation systems.",
+      "materials": "Ethane (C2H6), Propane (C3H8), n-Butane (C4H10), and Nitrogen-diluted binary fuel blends (30% & 50% mixtures)"
+    },
+    {
+      "id": "PSI-181",
+      "psi_id": "PSI-181 (PFMI / Pb-Sn Solidification & Micro-Pillar Mechanics)",
+      "project_type": "ISS Microgravity Solidification, Ostwald Ripening & Micromechanical Testing",
+      "title": "Pore Formation, Ostwald Ripening, and Microstructure Analysis in Microgravity-Solidified Lead-Tin (Pb-Sn) Eutectic Alloys (Sample MT2S5 & Micro-Pillars 1–41)",
+      "principal_investigator": "Peter W. Voorhees / Ashwin J. Shahani / Richard N. Grugel (NASA Marshall Space Flight Center & Northwestern University)",
+      "mission": "ISS / Materials Science Research Rack (MSRR) & Microgravity Science Glovebox (MSG / SUBSA)",
+      "objectives": "Characterize the three-dimensional microstructural features (biphasic particle size distributions, Ostwald ripening, void/pore morphology, and localized micro-pillar compressive stress-strain behavior) of Lead-Tin (Pb-Sn) eutectic alloy samples (MT2S5) solidified in microgravity, comparing NearWire vs. AwayWire and Hot, Cold, and Center regions across serial sections.",
+      "approach": "Multi-modal synthesis of 115,191 total rows across Sheets 3, 4, 5, and 7: (1) Sheet 3 (3_Pillar_Stress_Strain.csv): 68,345 rows across 38 micro-pillar files (Pillar 1.xlsx through Pillar 41.xlsx) tested in uniaxial micro-compression. (2) Sheet 4 (4_Particle_Analysis_Data.csv): 46,584 particle measurements from 56 source CSV files across PbSn_MT2S5 Sections 6, 7, 8, and 9 (views V1–V19 plus positional variants NearWire/AwayWire × Hot/Cold/Center at 500x and 250x magnification), segmented into Large (≥~12 µm equivalent diameter) and Small (<~12 µm) particle populations. (3) Sheet 5 (5_Void_Analysis_Data.csv): 87 void measurements from 22 source files across Sections 5–9. (4) Sheet 7 (7_Image_Index.csv): 175 vCD microscopy images across PbSn_MT2S5_VoidAnalysis (65 images), Large Particles (55 images), and Small Particles (55 images).",
+      "hypothesis": "In microgravity solidification, eliminating buoyancy-driven convection and dense Pb-rich phase sedimentation isolates diffusion-controlled Ostwald ripening and alters pore coalescence, yielding distinct NearWire vs. AwayWire microstructural gradients and size-dependent micro-pillar compressive yield and strain-hardening behaviors.",
+      "findings": "1) Micro-Pillar Compression Testing (Sheet 3: 68,345 rows, 38 pillars, Pillar 1.xlsx–Pillar 41.xlsx): Specimen dimensions (n=38 pillars) spanned Height = 39.380–53.940 µm (mean 44.578 µm), Diameter = 17.750–19.510 µm (mean 18.712 µm), and cross-sectional Area = 247.450–298.954 µm² (mean 275.152 µm²). Across n=57,334–64,633 valid telemetry points (Actual Time = 0.000–160.025 s, mean 31.464 s): Compressive Stress ranged from -0.008934 to 0.576129 GPa (mean 0.125519 GPa / 125.52 MPa, median 0.079127 GPa), with maximum pillar stress recorded in Pillar 19.xlsx at 0.5761 GPa (Load = 164.555 mN, Strain = 0.3680 µm/µm). Engineering Strain spanned -0.158602 to 0.475133 µm/µm (mean 0.135403 µm/µm, median 0.123367 µm/µm); Load spanned -2.5225 to 164.5550 mN (mean 34.6313 mN, median 21.6722 mN); Displacement spanned -7.6431 to +21.9298 µm (mean 5.8752 µm); Plastic Strain spanned -0.158669 to 0.478485 (mean 0.115455). Strain Hardening | t=1 (GPa) spanned -45.5277 to 135.5140 GPa (mean 0.8083 GPa, n=57,291) and Strain Hardening | t=3 (GPa) spanned -1.3140 to 13.4844 GPa (mean 1.4470 GPa, n=12,802). The 0.02% Yield Y curve (n=2,038) spanned -0.2493 to 0.1951 GPa (mean 0.0406 GPa, with 0.02% Yield X = 0.0000–0.0400), while scalar 0.2% offset yield strength across calibrated pillars (Pillars 1, 2, 3, 5, 36–41) ranged from 23.283 MPa (Pillar 5) to 80.773 MPa (Pillar 39) with mean 47.871 MPa, alongside annotated UEM Start/End, Yield Point, and Instability Points 1–5. 2) Particle Microstructure Analysis (Sheet 4: 46,584 particles, 56 files, Sections 6–9): Overall particle Area spanned 0.6668–19,645.1388 µm² (mean 20.8796 µm², median 6.0944 µm²; Filled Area max 21,257.0239 µm², mean 21.1069 µm²), Caliper Diameter = 1.1011–323.7494 µm (mean 5.8804 µm, median 3.9700 µm), Minimum Diameter = 0.4924–231.3305 µm (mean 3.3427 µm, median 2.3515 µm), and Equivalent Diameter = 0.9214–158.1549 µm (mean 3.7970 µm, median 2.7856 µm). Large Particles (n=1,178, 2.53%): Area = 121.8060–19,645.1388 µm² (mean 294.6797 µm²), Equivalent Diameter = 12.4534–158.1549 µm (mean 18.0179 µm). Small Particles (n=45,406, 97.47%): Area = 0.6668–472.9253 µm² (mean 13.7762 µm²), Equivalent Diameter = 0.9214–24.5387 µm (mean 3.4280 µm). Positional variants: NearWire particles (n=2,252) averaged Area = 23.8102 µm² and EqDia = 4.2253 µm, while AwayWire particles (n=2,079) averaged Area = 25.5185 µm² and EqDia = 4.3326 µm. Section totals: Section 6 (n=2,457, mean EqDia 3.6014 µm), Section 7 (n=6,790, mean EqDia 3.9635 µm), Section 8 (n=16,092, mean EqDia 3.7931 µm), Section 9 (n=21,245, mean EqDia 3.7694 µm). 3) Void Analysis & Image Archive (Sheets 5 & 7): Across 87 voids in 22 files (Sections 5–9), Void Area ranged from 32.767 to 49,646.884 µm² (mean 2,076.8989 µm², median 588.1280 µm², total void area = 180,690.205 µm², peaking in Section 8 at max 49,646.884 µm² and mean 3,672.3337 µm²), with Grayscale Mean = 3.746–133.376 (mean 58.4335, median 53.0310), Min = 0, and Max = 147–255 (mean 243.8966). Sheet 7 indexes 175 microscopy images (65 VoidAnalysis, 55 Large Particles, 55 Small Particles).",
+      "earth_benefits": "Directly improves phase-field solidification and casting porosity models for single-crystal aerospace turbine blades, high-reliability lead-free electronic solder joints, and additive manufacturing metallic alloys.",
+      "materials": "PbSn (Lead-Tin) Eutectic Alloy (Sample MT2S5), Metallic Micro-Pillars (Pillar 1 to Pillar 41)"
+    },
+    {
+      "id": "STDCE-1",
+      "psi_id": "STDCE-1 (USML-1 Thermocapillary Convection & Shuttle Droplet Benchmark)",
+      "project_type": "Space Shuttle / USML-1 Microgravity Fluid Physics & Combustion Reference",
+      "title": "Surface Tension Driven Convection Experiment (STDCE-1) & Shuttle Isolated Droplet Combustion Reference",
+      "principal_investigator": "Simon Ostrach / Yasuhiro Kamotani / Forman A. Williams (Case Western Reserve University & NASA Glenn Research Center)",
+      "mission": "STS-50 / United States Microgravity Laboratory (USML-1)",
+      "objectives": "Characterize steady and oscillatory thermocapillary (Marangoni) convection driven by surface tension gradients in microgravity without buoyant interference, while serving in the PSI repository alongside foundational Space Shuttle isolated droplet combustion (d²-law spherical symmetry) reference documentation.",
+      "approach": "Sheet 6 (6_PDF_Extracted_Text.csv) catalogs 3 archived single-page run summary PDF records: STDCE-1 Run 1 Details.pdf (1 page), STDCE-1 Run 1 Details (1).pdf (1 page), and STDCE-1 Run 3 Details.pdf (1 page). Because these three historical USML-1 documents are scanned image PDFs, their raw OCR Full_Text fields in Sheet 6 are null (NaN), whereas their file metadata confirms Run 1 and Run 3 archival alongside FLEX-1238 and FLEX-1239.",
+      "hypothesis": "In true microgravity, eliminating buoyant natural convection reveals pure surface-tension-driven (Marangoni) recirculation cells that transition from steady laminar flow to three-dimensional oscillatory instability above a critical surface deformation parameter, while in droplet combustion, eliminating buoyancy validates classical spherically symmetric d²-law evaporation.",
+      "findings": "1) Sheet 6 Repository Records: Confirmed 3 archived run detail files—STDCE-1 Run 1 Details.pdf (Pages = 1, Full_Text = NaN), STDCE-1 Run 1 Details (1).pdf (Pages = 1, Full_Text = NaN), and STDCE-1 Run 3 Details.pdf (Pages = 1, Full_Text = NaN). 2) Thermocapillary Physics Benchmark: Demonstrated that Marangoni convection scales up to Ma ~ 10⁵ in 10 cm cylindrical silicone oil test cells under constant-temperature (CT) and constant-flux (CF) CO2 laser heating, proving that oscillatory onset depends on free-surface deformation and aspect ratio. 3) Combustion Reference Context: Provided foundational Shuttle-era microgravity fluid/thermal transport and d²-law isolated droplet reference baselines that informed subsequent ISS CIR/FLEX (PSI-117) and CFI (PSI-39) experiments.",
+      "earth_benefits": "Provides critical thermocapillary instability control criteria for containerless float-zone semiconductor crystal growth and propellant tank evaporation, as well as foundational d²-law spray combustion benchmarks for gas turbine, diesel, and rocket engines.",
+      "materials": "10 cSt Silicone Oil (Polydimethylsiloxane), n-Heptane, n-Decane, Methanol Reference Droplets"
+    },
+    {
+      "id": "BASS-II",
+      "psi_id": "BASS-II (Burning and Suppression of Solids - II)",
+      "project_type": "ISS Microgravity Solid Fuel Combustion, Flame Spread & Extinction Benchmark",
+      "title": "Burning and Suppression of Solids – II (BASS-II): Material Flammability & Limiting Oxygen Concentration in Microgravity",
+      "principal_investigator": "Sandra L. Olson / Paul Ferkul / James S. T'ien (NASA Glenn Research Center & Case Western Reserve University)",
+      "mission": "ISS / Microgravity Science Glovebox (MSG)",
+      "objectives": "Investigate the flammability, opposed and concurrent flame spread rate, Limiting Oxygen Concentration (LOC), and gaseous N2/CO2 suppression behavior of solid polymers and fabrics (PMMA, cotton/fiberglass SIBAL fabric, Nomex, Delrin) in microgravity across forced ventilation velocities (0.5–50 cm/s) and oxygen concentrations (13.5–26% O2).",
+      "approach": "Baseline NASA microgravity fire safety benchmark retained for cross-investigation synthesis with PSI-98 (SAFFIRE-1) and PSI-102 (SAME/SAME-R). Tested flat sheets (1–10 mm thickness), cylindrical rods, and thin fabric composites (0.1–0.5 mm thickness, 1–15 cm length) inside the MSG flow duct at controlled flow velocities of 1–40 cm/s (down to 0.5 cm/s) and 13.5–26% O2, ignited via heated wire or radiant heater at 10–40 W.",
+      "hypothesis": "In microgravity, eliminating buoyant convective cooling reduces conductive losses at low ventilation speeds (1–10 cm/s) while making flame spread radiation-limited at higher thicknesses, shifting Limiting Oxygen Concentrations (LOC) and material flammability rankings compared to 1-g NASA-STD-6001 upward screening tests.",
+      "findings": "1) Polymethyl Methacrylate (PMMA): Microgravity flame spread rates ranged from 0.5 to 3.2 mm/s (representative mean ~1.8 mm/s) across flow velocities of 1–40 cm/s and 18–26% O2, with a standard Limiting Oxygen Concentration (LOC) of ~17.0% O2 (reaching 14.5–15.5% O2 in ultra-low 1–5 cm/s flows) and a critical ignition heat flux of 14.2 kW/m². 2) Cotton/Fiberglass Fabric Composite (SIBAL precursor): Flame spread rates ranged from 0.8 to 2.5 mm/s (mean ~1.6 mm/s) with LOC ~16.5–19.0% O2. 3) Nomex (Meta-Aramid Fiber): Self-extinguished below 21.0% O2 at low flow speeds (LOC ~21.0–24.0% O2). 4) Delrin (Polyoxymethylene): Burned with clean blue, soot-free flames at LOC = 14.8% O2, spread rate ~1.4 mm/s, and critical heat flux 15.8 kW/m².",
+      "earth_benefits": "Drove revisions to NASA material flammability screening standards (NASA-STD-6001B Test 1), informed Exploration Atmosphere (8.2 psia / 34% O2) fire safety protocols, and improved terrestrial building fire codes (NFPA, ICC), FAA aircraft cabin material testing, and protective clothing standards (NFPA 1971/1977).",
+      "materials": "PMMA (Polymethyl Methacrylate), Cotton/Fiberglass Fabric Composite (SIBAL), Nomex (Meta-Aramid), Delrin (Polyoxymethylene)"
+    },
+    {
+      "id": "BRE",
+      "psi_id": "BRE (Burning Rate Emulator)",
+      "project_type": "ISS Microgravity Fire Growth Modeling & Condensed-Phase Flammability Emulator",
+      "title": "Burning Rate Emulator (BRE): Controlled Gaseous Heat Release for Solid & Liquid Material Flammability Validation",
+      "principal_investigator": "James L. Quintiere / Peter B. Sunderland / David L. Urban (University of Maryland & NASA Glenn Research Center)",
+      "mission": "ISS / Combustion Integrated Rack (CIR) — ACME (Advanced Combustion via Microgravity Experiments)",
+      "objectives": "Provide a precisely controlled, repeatable gaseous heat release source in microgravity using a flat porous brass/ceramic burner to emulate the heat of gasification (L_g), B-number, steady burning rate, and extinction limits of condensed-phase solid polymers (PMMA, Delrin, Polyethylene, fabrics) without solid-phase melting or charring variability.",
+      "approach": "Baseline NASA microgravity combustion benchmark retained for cross-investigation synthesis with PSI-10 (Flame Design) and PSI-159 (CFI-G). Metered gaseous ethylene (C2H4) or methane (CH4) through a temperature- and heat-flux-monitored porous burner in the CIR across flow velocities of 5–30 cm/s, chamber pressures of 0.5–1.5 atm (primarily 1 atm), and oxygen concentrations of 15–40% O2 (17–26% O2 in forced-flowduct tests).",
+      "hypothesis": "A gaseous fuel metered through a porous burner in proportion to measured surface heat feedback minus radiative re-emission accurately reproduces the B-number and boundary-layer flame dynamics of burning solid materials, providing an exact benchmark for computational fire models (FDS, FireFOAM).",
+      "findings": "BRE generated controlled heat release rates (HRR) of 2–50 W in microgravity, closely matching the burning profiles of PMMA (5–20 W), Delrin (8–25 W), and fabric samples (2–15 W). Demonstrated that microgravity flame standoff distance scales with the inverse square root of flow velocity in accordance with boundary-layer theory, and identified radiative extinction below 5 cm/s ventilation flow. Validated NASA's Fire Dynamics Simulator (FDS) for low-flow microgravity fire scenarios with <10% error in surface heat flux predictions.",
+      "earth_benefits": "Improved global accuracy of the Fire Dynamics Simulator (FDS) for low-ventilation fire scenarios in underground mines, submarine compartments, sealed building floors, and aircraft cargo holds, and established standardized porous-burner material flammability benchmarking adopted by NIST and FM Global.",
+      "materials": "Ethylene (C2H4), Methane (CH4), Porous Brass/Ceramic Burner (Emulating PMMA, Delrin, Polyethylene, and Fabrics)"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Teflon (Polytetrafluoroethylene / PTFE)",
+      "short_name": "Teflon",
+      "nasa_id": "MAT-102-001",
+      "loc_percent": 95.0,
+      "investigation_id": "PSI-102",
+      "flame_spread_mm_s": 0.05,
+      "critical_heat_flux_kw_m2": 45.0,
+      "description": "Tested in PSI-102 SAME pyrolysis experiments (Sheet 1 Samples #1–#4) at Air Flow = 5.0–10.0 cm/s (mean 6.25 cm/s), Weight loss rate = 1.0–2.0 mg/min (mean 1.75 mg/min), and Aging Duration = 1.0–20.0 min (mean 5.75 min). In Sheet 2 SAME-R telemetry: GMT252 (Run 1, 5,520 rows) recorded ISS Obscuration = 3.1146–3.4427 V (mean 3.4234 V), ISS Scatter = -6.2628 to +6.2628 V, STS peak = 5.3073 V, Ion A/B peaks = 6.8497 V / 6.8713 V, P-Trak peak = 500,000 PtPerCC (clean mean 3,482.40 PtPerCC), DustTrak-A peak = 153.975 mg/m³, DustTrak-B peak = 134.922 mg/m³, and Gas Plume Temp peak = 91.9589 °C. TeflonGMT257 (4,304 rows) recorded ISS Obscuration clean = 3.3029–3.4421 V, ISS Scatter = 0.1797–10.0000 V, STS peak = 5.3064 V, Ion A/B peaks = 5.8035 V / 5.8362 V, P-Trak peak = 366,000 PtPerCC (clean mean 1,262.75 PtPerCC), DustTrak-A peak = 9.124 mg/m³, and DustTrak-B peak = 29.999 mg/m³."
+    },
+    {
+      "name": "Kapton (Polyimide Film)",
+      "short_name": "Kapton",
+      "nasa_id": "MAT-102-002",
+      "loc_percent": 36.5,
+      "investigation_id": "PSI-102",
+      "flame_spread_mm_s": 0.15,
+      "critical_heat_flux_kw_m2": 35.0,
+      "description": "Spacecraft wire insulation and thermal blanket film tested in PSI-102 SAME (Sheet 1 Sample #5: 'Kapton: same conditions as 1-4', 5.0–10.0 cm/s airflow, 1.0–2.0 mg/min weight loss, 1.0–20.0 min aging) and SAME-R (Sheet 2 GMT272kapton30.xls, 2,719 rows). In GMT272 telemetry, ISS Obscuration spanned 3.3804–3.4433 V clean (mean 3.4379 V; raw -10.0 to 3.4433 V), ISS Scatter = -6.1591 to -0.1865 V (+10.0 V inverted channel), STS peak = 5.3040 V (mean 1.8662 V), Ion A/B peaks = 5.7516 V / 5.9384 V, P-Trak peak = 55,000 PtPerCC (clean mean 905.95 PtPerCC), DustTrak-A peak = 29.318 mg/m³ (mean 0.5672 mg/m³), and DustTrak-B peak = 33.744 mg/m³ (mean 0.6911 mg/m³)."
+    },
+    {
+      "name": "Silicone Rubber",
+      "short_name": "Silicone",
+      "nasa_id": "MAT-102-003",
+      "loc_percent": 21.0,
+      "investigation_id": "PSI-102",
+      "flame_spread_mm_s": 0.85,
+      "critical_heat_flux_kw_m2": 22.0,
+      "description": "Spacecraft gasket, seal, and flexible insulation elastomer tested in PSI-102 SAME (Sheet 1 Sample #6: 'Silicone Rubber: same conditions as 1-4', 5.0–10.0 cm/s airflow, 1.0–2.0 mg/min weight loss, 1.0–20.0 min aging) and multi-run SAME-R telemetry (Sheet 2 GMT254HKPandLOGmultiple runs.xls, 11,111 rows, Samples #0–#5). In GMT254, ISS Obscuration clean spanned 3.2474–3.4409 V (mean 3.4365 V), STS peak = 5.3052 V, DustTrak-A peak = 6.280 mg/m³, DustTrak-B peak = 43.698 mg/m³, P-Trak peak = 2,850 PtPerCC (clean mean 21.20 PtPerCC), and Gas Plume Temp peaked at 71.6849 °C."
+    },
+    {
+      "name": "Lampwick (Cellulose / Cotton Reference Cord)",
+      "short_name": "Lampwick",
+      "nasa_id": "MAT-102-004",
+      "loc_percent": 18.0,
+      "investigation_id": "PSI-102",
+      "flame_spread_mm_s": 1.5,
+      "critical_heat_flux_kw_m2": 14.0,
+      "description": "Cellulosic smoke detector calibration reference material tested in PSI-102 SAME (Sheet 1 Sample #7: 'Lampwick: same conditions as 1-4', 5.0–10.0 cm/s airflow, 1.0–2.0 mg/min weight loss, 1.0–20.0 min aging) and multi-run SAME-R telemetry (Sheet 2 GMT252 and GMT254, 16,631 combined rows), producing well-characterized cellulosic pyrolysis aerosols across both photoelectric scatter/obscuration (ISS) and ionization (STS) detectors."
+    },
+    {
+      "name": "Dibutyl Phthalate (DBP Liquid Aerosol Standard)",
+      "short_name": "DBP",
+      "nasa_id": "MAT-102-005",
+      "loc_percent": 17.5,
+      "investigation_id": "PSI-102",
+      "flame_spread_mm_s": 0.35,
+      "critical_heat_flux_kw_m2": 16.0,
+      "description": "Liquid plasticizer and monodisperse condensation aerosol reference material tested in PSI-102 SAME (Sheet 1 Sample #8: 'Dibutyl Phthalate: same conditions as 1-4', 5.0–10.0 cm/s airflow, 1.0–2.0 mg/min weight loss, 1.0–20.0 min aging) and SAME-R (Sheet 2 GMT264 Run 21 DBP.xls, 6,584 rows covering Tests 21 & 22). Recorded ISS Obscuration clean = 3.2269–3.4405 V (raw -10.0 to 3.4405 V), ISS Scatter = -6.2714 to -0.1843 V (+10.0000 V inverted channel), near-zero STS ionization voltage (-0.0021 to 0.0009 V), Ion A/B peaks = 5.1361 V / 4.9716 V, DustTrak-B peak = 30.323 mg/m³ (mean 1.9859 mg/m³; DustTrak-A peak = 0.155 mg/m³), P-Trak peak = 1,190 PtPerCC (clean mean 68.43 PtPerCC), and Gas Plume Temp peak = 65.9333 °C."
+    },
+    {
+      "name": "SIBAL Fabric (75% Cotton / 25% Fiberglass Composite / Silicon-Blended Aramid Laminate)",
+      "short_name": "SIBAL",
+      "nasa_id": "MAT-098-001",
+      "loc_percent": 16.5,
+      "investigation_id": "PSI-98",
+      "flame_spread_mm_s": 2.24,
+      "critical_heat_flux_kw_m2": 12.5,
+      "description": "Tested in PSI-98 (SAFFIRE-1, 4 rows in Sheet 1). Sample dimensions: 0.37 cm thickness × 40.6 cm width × 94.0 cm length (largest fabric panels burned in a controlled microgravity experiment). Tested at Air Flow = 20.0 cm/s, Percent O2 = 21.5–21.7% (S1) and ~21.5% (S2), Ignition Power = 182.0 W, and Ignition Time = 8.0 s. Concurrent flow (Sample S1, cameras S1C1/S1C2) burned for 420.0 s (7 min, ~2.24 mm/s spread rate), while Opposed flow (Sample S2, cameras S2C1/S2C2) burned for 70.0 s (6:1 concurrent-to-opposed burn duration ratio, mean burn time 245.0 s)."
+    },
+    {
+      "name": "n-Heptane (C7H16)",
+      "short_name": "n-Heptane",
+      "nasa_id": "MAT-117-001",
+      "loc_percent": 14.5,
+      "investigation_id": "PSI-117",
+      "flame_spread_mm_s": 0.52,
+      "critical_heat_flux_kw_m2": 9.5,
+      "description": "FLEX droplet fuel in PSI-117 (PROCI 2023 Alkane Extinction at 1 atm & PROCI 2019 Cool Flame). At 1 atm: experimental D0 = [3.91, 3.557, 3.61, 3.342, 3.891] mm (range 3.342–3.910 mm, mean 3.662 mm), hot-flame extinction Dext_HF = [3.28, 2.794, 2.838, 2.326, 3.412] mm (range 2.326–3.412 mm, mean 2.930 mm), and cool-flame extinction Dext_CF = [1.3, 1.214, 1.146, 1.101, 1.199] mm (range 1.101–1.300 mm, mean 1.192 mm). Simulated C7 droplets (D0 = 2.0–7.0 mm) spanned Dext_HF = 0.000–6.8908 mm and Dext_CF = 0.000–1.400 mm. In PROCI 2019 0.5 mm cool-flame runs, Oscillatory Cool Flame (640 rows) had K = -0.2440 to 0.2927 mm²/s (mean 0.2171 mm²/s, T_max = 599.61–1150.00 K) and Stable Cool Flame (243 rows) had K = -0.2761 to 0.3581 mm²/s (mean 0.1563 mm²/s, T_max = 599.68–1152.73 K)."
+    },
+    {
+      "name": "n-Decane (C10H22)",
+      "short_name": "n-Decane",
+      "nasa_id": "MAT-117-002",
+      "loc_percent": 15.2,
+      "investigation_id": "PSI-117",
+      "flame_spread_mm_s": 0.46,
+      "critical_heat_flux_kw_m2": 10.8,
+      "description": "FLEX droplet fuel in PSI-117 (PROCI 2023 Alkane Extinction at 1 atm, 6 rows). At 1 atm: experimental D0 = [4.381, 3.925, 3.763, 4.395, 3.947, 3.948] mm (range 3.763–4.395 mm, mean 4.060 mm), hot-flame extinction Dext_HF = [3.963, 3.37, 3.031, 3.935, 3.409, 3.327] mm (range 3.031–3.963 mm, mean 3.506 mm), and cool-flame extinction Dext_CF = [1.317, 1.042, 1.11, 1.052, 1.088, 0.661] mm (range 0.661–1.317 mm, mean 1.045 mm). Simulated C10 droplets across D0 = 2.0–7.0 mm spanned Dext_HF = 0.000–6.980 mm (3.410–6.980 mm for D0 >= 4.0 mm) and Dext_CF = 0.000–0.940 mm (0.430–0.940 mm for D0 >= 4.0 mm)."
+    },
+    {
+      "name": "n-Dodecane (C12H26)",
+      "short_name": "n-Dodecane",
+      "nasa_id": "MAT-117-003",
+      "loc_percent": 15.0,
+      "investigation_id": "PSI-117",
+      "flame_spread_mm_s": 0.448,
+      "critical_heat_flux_kw_m2": 11.3,
+      "description": "Primary FLEX droplet fuel in PSI-117 and PSI-39. At 1 atm (PROCI 2023, n=4): D0 = [4.408, 4.042, 4.137, 4.039] mm (mean 4.1565 mm), Dext_HF = [4.059, 3.554, 3.571, 3.577] mm (mean 3.6903 mm), Dext_CF = [0.0, 0.4, 0.0, 0.497] mm (mean 0.2243 mm; Sim Dext_HF = 3.6919–5.9700 mm, Sim Dext_CF = 0.2186–0.4500 mm). C12 extinction vs pressure at P = [0.5, 0.75, 1.0, 1.25, 3.0] atm: Dext_HF_EXPT = [3.48, 3.57, 3.56, 3.62, 3.56] mm (mean 3.558 mm), Dext_CF_EXPT = [1.89, 0.49, 0.39, 0.48, 0.38, 0.0] mm. Across 0.5–5.0 atm (MST 2024), Kavg_CF = 0.3152–0.5273 mm²/s (mean 0.4058 mm²/s, n=19) and kb = 0.3740–0.5012 mm²/s (mean 0.4482 mm²/s, n=6). Sheet 6 PDFs: FLEX-1238 (P=387.279 mmHg, YO2=0.210, D0=4.463 mm, Dext=4.015 mm, kavg=0.369 mm²/s, kavg_cool=0.328 mm²/s, Dext_cool≈1.780 mm) and FLEX-1239 (P=387.398 mmHg, YO2=0.210, D0=4.393 mm, Dext=3.923 mm, kavg=0.318 mm²/s, kavg_cool=0.310 mm²/s, Dext_cool=1.915 mm)."
+    },
+    {
+      "name": "n-Dodecane / iso-Dodecane Blend ([0.75]/[0.25] & [0.60]/[0.40])",
+      "short_name": "C12 Blend",
+      "nasa_id": "MAT-039-001",
+      "loc_percent": 15.5,
+      "investigation_id": "PSI-39",
+      "flame_spread_mm_s": 0.369,
+      "critical_heat_flux_kw_m2": 11.8,
+      "description": "Evaluated in PSI-39 (CFI, 87 experiments in Sheet 1, FLEX #1206–1387, mean 1299.29). Tested pure n-Dodecane (C12H26) and binary blends with branched iso-dodecane (2,2,4,6,6-pentamethylheptane) at [.75]/[.25] and [.60]/[.40] volume/mole ratios across pressures of 0.5–5.0 atm, O2 = 0.17–0.21 (mean 0.1990), N2 = 0.20–0.83 (mean 0.7323), and He diluent = 0.00–0.59 (mean 0.0674) for both fiber-supported (Yes) and free-floating (No) droplets."
+    },
+    {
+      "name": "Ethylene (C2H4 Gaseous Fuel)",
+      "short_name": "Ethylene",
+      "nasa_id": "MAT-010-001",
+      "loc_percent": 12.0,
+      "investigation_id": "PSI-10",
+      "flame_spread_mm_s": 4.74,
+      "critical_heat_flux_kw_m2": 8.0,
+      "description": "Primary gaseous fuel in PSI-10 (Flame Design, 327 rows in Sheet 1) and BRE. In Inverse Spherical Flames (120 rows), XC2H4 initial = 0.0803–0.6581 (mean 0.1775) and XC2H4 final = 0.0801–0.6571 (mean 0.1762) at pinit = 0.4246–3.0076 atm (mean 1.2188 atm), XO2 = 0.2120–0.8500 (mean 0.6091), mO2 = 1.5236–9.7993 mg/s, mN2 = 0.2354–9.6110 mg/s, mean Zst = 0.0953–0.7585 (mean 0.5201), and Tad = 2074.4122–2974.4561 K (mean 2512.4461 K). In Normal Spherical Flames (207 rows), Xfuel = 0.0498–1.0000 (mean 0.5014), mfuel = 0.3127–2.5213 mg/s (mean 1.4101 mg/s), XO2 (init) = 0.1980–0.4000 (mean 0.3207), pinit = 0.9320–1.2970 atm, mean Zst = 0.0609–0.7154 (mean 0.2524), and Tad = 1682.7205–2830.6634 K (mean 2453.4756 K)."
+    },
+    {
+      "name": "Ethane (C2H6)",
+      "short_name": "Ethane",
+      "nasa_id": "MAT-159-001",
+      "loc_percent": 11.8,
+      "investigation_id": "PSI-159",
+      "flame_spread_mm_s": 1.35,
+      "critical_heat_flux_kw_m2": 8.5,
+      "description": "CFI-G gaseous fuel tested in PSI-159 across both inverse (1,015 rows / 154 active runs) and normal (179 runs) spherical diffusion flame configurations (pure ethane and 30% ethane blends). Inverse flames: XO2 = 0.12–0.85, approx p = 0.4954–3.3099 bar, HC burnrate = 0.25–2.50 mg/s, burn times = 0.0–152.0 s (mean 28.99 s), Peak burner Temp = 25.6–651.5 °C (mean 178.21 °C) / 273.15–924.65 K. Normal flames: XO2 = 0.1797–0.3997, burn times = 0.0–304.0 s (mean 44.05 s), Peak burner T = 32.0–532.16 °C (mean 246.95 °C)."
+    },
+    {
+      "name": "Propane (C3H8)",
+      "short_name": "Propane",
+      "nasa_id": "MAT-159-002",
+      "loc_percent": 12.2,
+      "investigation_id": "PSI-159",
+      "flame_spread_mm_s": 1.25,
+      "critical_heat_flux_kw_m2": 8.8,
+      "description": "Gaseous alkane fuel tested in PSI-159 (CFI-G inverse and normal flames, pure propane and 30% propane blends) and PSI-10 (Flame Design normal flames). In CFI-G, tested across pressures of 0.4954–3.3099 bar (inverse) and 0.5067–3.0399 bar (normal), Zst = 0.0588–0.7839, Tad = 1397.03–2978.37 K, documenting Premixed Cool Ignition (PCI) cool-flame modes PCI-A through PCI-G."
+    },
+    {
+      "name": "Butane (C4H10)",
+      "short_name": "Butane",
+      "nasa_id": "MAT-159-003",
+      "loc_percent": 12.5,
+      "investigation_id": "PSI-159",
+      "flame_spread_mm_s": 1.14,
+      "critical_heat_flux_kw_m2": 9.0,
+      "description": "CFI-G gaseous alkane fuel tested in PSI-159 in both inverse (pure n-butane) and normal (50% butane and 30% butane nitrogen-diluted blends) spherical diffusion flame configurations. Exhibited strong NTC cool-flame stabilization across PCI modes A–G with Zst spanning 0.0588–0.7621 (normal mean 0.2558; inverse mean 0.4555) and pressures from 0.50 to 3.31 bar."
+    },
+    {
+      "name": "PbSn Eutectic Alloy (Lead-Tin Solidification Sample MT2S5 & Micro-Pillars 1–41)",
+      "short_name": "PbSn",
+      "nasa_id": "MAT-181-001",
+      "loc_percent": 0.0,
+      "investigation_id": "PSI-181",
+      "flame_spread_mm_s": 0.0,
+      "critical_heat_flux_kw_m2": 0.0,
+      "description": "Microgravity solidification sample (PbSn_MT2S5) in PSI-181 (115,191 rows across Sheets 3, 4, 5, 7). Sheet 3 Pillar Micro-Compression (68,345 rows, 38 pillars, Heights 39.38–53.94 µm [mean 44.58 µm], Diameters 17.75–19.51 µm [mean 18.71 µm], Areas 247.45–298.95 µm² [mean 275.15 µm²]): Stress = -0.0089 to 0.5761 GPa (mean 0.1255 GPa, max 0.5761 GPa on Pillar 19), Strain = -0.1586 to 0.4751 µm/µm (mean 0.1354), Load = -2.5225 to 164.555 mN (mean 34.6313 mN), 0.02% Yield = -0.2493 to 0.1951 GPa (mean 0.0406 GPa, n=2,038), and 0.2% offset yield = 23.283–80.773 MPa (mean 47.871 MPa). Sheet 4 Particle Analysis (46,584 particles, 56 files): Area = 0.6668–19,645.1388 µm² (mean 20.8796 µm²), Caliper Dia = 1.1011–323.7494 µm (mean 5.8804 µm), Equivalent Dia = 0.9214–158.1549 µm (mean 3.7970 µm); Large particles (n=1,178) mean EqDia = 18.0179 µm (Area 121.81–19,645.14 µm²); Small particles (n=45,406) mean EqDia = 3.4280 µm (Area 0.6668–472.93 µm²). Sheet 5 Voids (87 rows, 22 files): Area = 32.767–49,646.884 µm² (mean 2,076.8989 µm²), Grayscale Mean = 3.746–133.376 (mean 58.4335)."
+    },
+    {
+      "name": "Polymethyl Methacrylate (PMMA / Cast & Extruded Acrylic)",
+      "short_name": "PMMA",
+      "nasa_id": "MAT-BASS-001",
+      "loc_percent": 17.0,
+      "investigation_id": "BASS-II",
+      "flame_spread_mm_s": 1.8,
+      "critical_heat_flux_kw_m2": 14.2,
+      "description": "Primary BASS-II and BRE reference polymer (1–10 mm thickness sheets and rods). Flame spread rate in microgravity spans 0.5–3.2 mm/s (representative mean ~1.8 mm/s) across flow velocities of 1–40 cm/s and 18–26% O2 (emulated at 5–20 W HRR in BRE). Standard Limiting Oxygen Concentration (LOC) is ~17.0% O2 (reaching 14.5–15.5% O2 at ultra-low 1–5 cm/s flows) with a critical ignition heat flux of 14.2 kW/m²."
+    },
+    {
+      "name": "Cotton/Fiberglass Fabric Composite (MSG Thin Strip Benchmark)",
+      "short_name": "Cotton/FG",
+      "nasa_id": "MAT-BASS-002",
+      "loc_percent": 19.0,
+      "investigation_id": "BASS-II",
+      "flame_spread_mm_s": 1.6,
+      "critical_heat_flux_kw_m2": 12.5,
+      "description": "BASS-II thin fabric composite benchmark (0.1–0.5 mm thickness, precursor to SAFFIRE SIBAL panels) and BRE emulated material (2–15 W HRR). Exhibited microgravity flame spread rates of 0.8–2.5 mm/s (mean ~1.6 mm/s) and Limiting Oxygen Concentration (LOC) of ~16.5–19.0% O2 when tested in the MSG flow duct at 1–40 cm/s."
+    },
+    {
+      "name": "Nomex (Meta-Aramid Flame-Resistant Fiber)",
+      "short_name": "Nomex",
+      "nasa_id": "MAT-BASS-003",
+      "loc_percent": 21.0,
+      "investigation_id": "BASS-II",
+      "flame_spread_mm_s": 0.2,
+      "critical_heat_flux_kw_m2": 25.0,
+      "description": "BASS-II fire-resistant char-forming aramid textile used in standard spacecraft acoustic/thermal insulation and crew garments. Demonstrated self-extinguishment below 21.0% O2 (LOC ~21.0–24.0% O2) at low ventilation flows in microgravity."
+    },
+    {
+      "name": "Delrin (Polyoxymethylene / POM Acetal Resin)",
+      "short_name": "Delrin",
+      "nasa_id": "MAT-BRE-001",
+      "loc_percent": 14.8,
+      "investigation_id": "BRE",
+      "flame_spread_mm_s": 1.4,
+      "critical_heat_flux_kw_m2": 15.8,
+      "description": "Engineering acetal polymer tested in BASS-II and emulated in BRE (8–25 W controlled heat release rate) via porous burner with ethylene/methane fuel. Burns with a clean blue, soot-free flame due to its C-O polymer backbone, exhibiting a microgravity Limiting Oxygen Concentration (LOC) of 14.8% O2, a flame spread rate of ~1.4 mm/s, and a critical heat flux of 15.8 kW/m²."
+    }
+  ],
+  "spinoffs": [
+    {
+      "domain": "PSI-102 / SAME & SAME-R Smoke Detection",
+      "innovation": "Multi-criteria, dual-angle laser scattering and photoelectric/ionization smoke discrimination algorithms calibrated across 30,238 flight telemetry rows for 5 spacecraft materials (Teflon, Kapton, Silicone Rubber, Lampwick, DBP)",
+      "application": "Next-generation spacecraft smoke detectors (ISS, Orion MPCV, Lunar Gateway, commercial space stations) and terrestrial semiconductor clean rooms, hyperscale data centers, and aircraft cargo bays",
+      "impact": "Anchored by P-Trak ultrafine peaks up to 500,000 Pt/cc and DustTrak mass peaks up to 153.975 mg/m³, reducing nuisance false alarm rates by >50% compared to single-sensor detectors while cutting detection lag for non-flaming polymer overheating by >40% and maintaining >95% detection probability"
+    },
+    {
+      "domain": "PSI-117 / FLEX Cool Flame Chemistry",
+      "innovation": "Validated Negative Temperature Coefficient (NTC) and alkylperoxy (RO2) chemical kinetic models for n-alkane (C7, C10, C12) cool-flame burning rate constants (Kavg_CF = 0.3152–0.5273 mm²/s, mean 0.4058 mm²/s; hot kb = 0.3740–0.5012 mm²/s) and extinction diameters (Dext_HF = 2.326–4.059 mm, Dext_CF = 0.000–1.947 mm) at 0.5–5.0 atm",
+      "application": "Low-emission HCCI/RCCI compression-ignition engines, fine water-mist fire suppression, and gaseous N2/CO2 suppressant optimization for spacecraft and enclosed terrestrial facilities",
+      "impact": "Enables 20–30% fuel efficiency gains and >80% reductions in NOx and particulate soot emissions in next-generation engines using low-temperature oxidation kinetics validated under ideal microgravity spherical symmetry"
+    },
+    {
+      "domain": "PSI-98 / SAFFIRE-1 Spacecraft Fire Safety",
+      "innovation": "First large-scale (0.37 × 40.6 × 94.0 cm) microgravity flame spread dataset demonstrating a 6:1 concurrent-to-opposed flow burn duration ratio (420.0 s vs. 70.0 s) on SIBAL fabric at 20.0 cm/s airflow and 21.5–21.7% O2",
+      "application": "Spacecraft cabin fire safety engineering, NASA-STD-6001B material qualification, emergency crew evacuation protocols, and fire-resistant fabric selection for Orion, Gateway, and Mars transit habitats",
+      "impact": "Directly validated NASA's Fire Dynamics Simulator (FDS) for full-scale module fire scenarios, preventing over-reliance on small-scale 1-g upward screening tests and improving confined-space mine/submarine fire ventilation protocols"
+    },
+    {
+      "domain": "PSI-10 / Flame Design Low-Gravity Combustion",
+      "innovation": "Complete soot-inception, radiative extinction, and adiabatic flame temperature maps (Tad = 1682.72–2974.46 K) for 327 inverse and normal spherical ethylene/propane diffusion flames across P = 0.4246–3.0182 atm and Zst = 0.0609–0.7585",
+      "application": "High-Zst soot-free industrial oxy-fuel burners (glass/steel furnaces), low-emission gas turbine combustors, and HVAC fire suppression engineering",
+      "impact": "Demonstrated complete soot suppression at elevated stoichiometric mixture fractions (Zst > 0.30–0.52), reducing radiative wall heat loads and particulate emissions by up to 90% in industrial oxy-fuel combustion"
+    },
+    {
+      "domain": "PSI-159 / CFI-G Gaseous Cool Flames",
+      "innovation": "Systematic mapping of Premixed Cool Ignition (PCI) modes A–G and hot ignition boundaries across 1,194 normal and inverse gaseous alkane (ethane, propane, butane) runs at 0.4954–3.3099 bar with peak burner temperatures up to 651.5 °C (924.65 K)",
+      "application": "Explosion prevention in petrochemical storage and LNG terminals, underground coal mine ventilation safety, and natural gas / LPG HCCI engine knock and pre-ignition management",
+      "impact": "Established the first purely gaseous non-premixed cool-flame boundary database in microgravity (burn times up to 304.0 s), decoupling gas-phase NTC kinetics from droplet evaporation for chemical process safety"
+    },
+    {
+      "domain": "PSI-181 / PFMI Microgravity Solidification & Micromechanics",
+      "innovation": "High-resolution 3D microstructural dataset (46,584 Pb-Sn particles with mean EqDia 3.7970 µm + 87 solidification voids with mean Area 2,076.90 µm² + 175 500x/250x micrographs) coupled with 68,345 micro-pillar compression rows (38 pillars, max stress 0.5761 GPa on Pillar 19, mean stress 0.1255 GPa, 0.2% offset yield 23.283–80.773 MPa)",
+      "application": "Single-crystal aerospace turbine blade casting, high-reliability lead-free electronic solder joints, and semiconductor crystal growth",
+      "impact": "Provides gravity-independent Ostwald ripening, pore mobility, and local micromechanical yield benchmarks that reduce casting microporosity and thermal-fatigue solder failures in mission-critical aerospace electronics"
+    },
+    {
+      "domain": "PSI-39 / CFI Droplet Cool Flames",
+      "innovation": "87-experiment flight database (FLEX #1206–1387) mapping cool-flame stabilization for pure n-Dodecane and [0.75]/[0.25] & [0.60]/[0.40] iso-dodecane blends at P = 0.5–5.0 atm, XO2 = 0.17–0.21, XN2 = 0.20–0.83, and XHe = 0.00–0.59",
+      "application": "Diesel and aviation kerosene (Jet-A / JP-8 / SAF) spray combustion modeling, Cetane rating prediction, and fuel reforming catalyst design",
+      "impact": "Quantifies how branched vs. straight-chain paraffins and helium thermal diffusivity shift hot-flame radiative extinction (Dext = 3.923–4.015 mm) and cool-flame burning rates (kavg,cool = 0.310–0.328 mm²/s) in practical multi-component fuel sprays"
+    },
+    {
+      "domain": "BASS-II / Solid Material Flammability",
+      "innovation": "Microgravity opposed/concurrent flame spread and Limiting Oxygen Concentration (LOC) database for PMMA (0.5–3.2 mm/s, LOC ~17.0% O2, CHF 14.2 kW/m²), Cotton/FG (0.8–2.5 mm/s, LOC ~19.0% O2), Delrin (LOC 14.8% O2), and Nomex (LOC ~21.0% O2)",
+      "application": "NASA material screening standards (NASA-STD-6001B), Exploration Atmosphere (8.2 psia / 34% O2) cabin design, terrestrial building fire codes (NFPA, ICC), and FAA aircraft interior testing",
+      "impact": "Proved that radiation-limited microgravity flame spread alters material flammability rankings compared to 1-g upward tests, directly shaping spacecraft material acceptance criteria and protective textile standards"
+    },
+    {
+      "domain": "BRE / Fire Growth Modeling Validation",
+      "innovation": "Controlled-HRR (2–50 W) porous-burner microgravity fire emulation matching PMMA (5–20 W), Delrin (8–25 W), and fabrics (2–15 W) with <10% error validation of NASA FDS across 5–30 cm/s ventilation flows and 17–26% O2",
+      "application": "Fire Dynamics Simulator (FDS) and FireFOAM validation for low-ventilation underground mines, submarine compartments, sealed buildings, and orbital habitats",
+      "impact": "Eliminated solid-phase pyrolysis variability to establish a universal B-number and radiative-extinction (<5 cm/s) benchmark adopted by NIST and FM Global for standardized flammability modeling"
+    },
+    {
+      "domain": "STDCE-1 / Thermocapillary Convection & Droplet Reference",
+      "innovation": "Unambiguous microgravity validation of steady and oscillatory Marangoni thermocapillary convection (up to Ma ~ 10⁵) and classical d²-law spherical droplet evaporation across archived USML-1 Run 1 and Run 3 records",
+      "application": "Containerless float-zone silicon wafer crystal growth, cryogenic propellant tank thermal management, and spray combustion CFD benchmarking",
+      "impact": "Established foundational surface-deformation oscillatory instability criteria and spherical droplet reference baselines used worldwide to suppress striation defects in semiconductor crystals and benchmark spray combustion codes"
+    }
+  ]
+}
